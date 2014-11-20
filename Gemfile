@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 ruby '2.1.1'
 gem 'rails', '4.1.6'
 gem 'pg'
+gem 'pry'
 
 gem 'coffee-rails'
 gem 'execjs'

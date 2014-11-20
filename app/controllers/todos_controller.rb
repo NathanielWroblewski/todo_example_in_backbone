@@ -10,9 +10,20 @@ class TodosController < ApplicationController
     render json: todo.attributes
   end
 
+  def create
+    todo = Todo.create(todo_params)
+    render json: todo.attributes
+  end
+
   def update
     todo = Todo.find(params[:id])
     todo.update(completed_at: Time.now)
     render json: todo.attributes
+  end
+
+  private
+
+  def todo_params
+    params.require(:todo).permit(:title, :description, :urgency)
   end
 end

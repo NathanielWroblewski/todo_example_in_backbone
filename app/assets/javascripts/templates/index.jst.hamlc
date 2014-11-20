@@ -1,3 +1,11 @@
+%form
+  %input{type: 'text', placeholder: 'Title', name: 'title'}
+  %input{type: 'text', placeholder: 'Description', name: 'description'}
+  %select{name: 'urgency'}
+    - for urgency in ['low', 'medium', 'high']
+      %option= urgency
+  %input{type: 'submit', value: 'Create Todo'}
+
 %ul
 - for todo in @todoList
   - if !todo.get('completed_at')
