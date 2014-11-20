@@ -10,7 +10,7 @@
 - for todo in @todoList
   - if !todo.get('completed_at')
     %li{data: {id: todo.get('id')}}
-      %input{type: 'checkbox'}
+      %input{type: 'checkbox', name: 'completed'}
       %span= todo.get('title')
   - else
     %li.strikethrough= todo.get('title')
