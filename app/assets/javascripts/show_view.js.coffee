@@ -2,5 +2,7 @@ window.Todo or= {}
 
 class Todo.ShowView extends Backbone.View
 
+  template: JST['templates/show']
+
   render: ->
-    @$el.html '<h1>hello</h1>'
+    @$el.html @template()
