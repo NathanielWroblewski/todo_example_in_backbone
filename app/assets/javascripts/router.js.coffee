@@ -5,3 +5,6 @@ class Todo.Router extends Backbone.Router
     '': 'index'
 
   index: ->
+    view = new Todo.IndexView
+      el: '#container'
+    view.render()
