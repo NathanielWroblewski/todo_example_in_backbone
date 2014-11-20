@@ -9,4 +9,10 @@ class TodosController < ApplicationController
     todo = Todo.find(params[:id])
     render json: todo.attributes
   end
+
+  def update
+    todo = Todo.find(params[:id])
+    todo.update(completed_at: Time.now)
+    render json: todo.attributes
+  end
 end
