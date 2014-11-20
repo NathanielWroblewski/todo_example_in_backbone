@@ -1,0 +1,169 @@
+LOG:  database system was shut down at 2014-11-20 01:11:45 PST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  relation "todos" does not exist at character 323
+STATEMENT:                SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	                FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                  ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	               WHERE a.attrelid = '"todos"'::regclass
+	                 AND a.attnum > 0 AND NOT a.attisdropped
+	               ORDER BY a.attnum
+	
+ERROR:  relation "todos" does not exist at character 323
+STATEMENT:                SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	                FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                  ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	               WHERE a.attrelid = '"todos"'::regclass
+	                 AND a.attnum > 0 AND NOT a.attisdropped
+	               ORDER BY a.attnum
+	
+ERROR:  relation "todos" does not exist at character 323
+STATEMENT:                SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	                FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                  ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	               WHERE a.attrelid = '"todos"'::regclass
+	                 AND a.attnum > 0 AND NOT a.attisdropped
+	               ORDER BY a.attnum
+	
+ERROR:  database "todo_example_in_backbone_development" already exists
+STATEMENT:  CREATE DATABASE "todo_example_in_backbone_development" ENCODING = 'unicode'
+ERROR:  database "todo_example_in_backbone_test" already exists
+STATEMENT:  CREATE DATABASE "todo_example_in_backbone_test" ENCODING = 'unicode'
+ERROR:  relation "todos" does not exist at character 323
+STATEMENT:                SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	                FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                  ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	               WHERE a.attrelid = '"todos"'::regclass
+	                 AND a.attnum > 0 AND NOT a.attisdropped
+	               ORDER BY a.attnum
+	
+ERROR:  relation "todos" does not exist at character 323
+STATEMENT:                SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	                FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                  ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	               WHERE a.attrelid = '"todos"'::regclass
+	                 AND a.attnum > 0 AND NOT a.attisdropped
+	               ORDER BY a.attnum
+	
+ERROR:  relation "todos" does not exist at character 323
+STATEMENT:                SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	                FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                  ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	               WHERE a.attrelid = '"todos"'::regclass
+	                 AND a.attnum > 0 AND NOT a.attisdropped
+	               ORDER BY a.attnum
+	
+ERROR:  relation "todos" does not exist at character 323
+STATEMENT:                SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	                FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                  ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	               WHERE a.attrelid = '"todos"'::regclass
+	                 AND a.attnum > 0 AND NOT a.attisdropped
+	               ORDER BY a.attnum
+	
+ERROR:  relation "todos" does not exist at character 323
+STATEMENT:                SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	                FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                  ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	               WHERE a.attrelid = '"todos"'::regclass
+	                 AND a.attnum > 0 AND NOT a.attisdropped
+	               ORDER BY a.attnum
+	
+ERROR:  relation "todos" does not exist at character 323
+STATEMENT:                SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	                FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                  ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	               WHERE a.attrelid = '"todos"'::regclass
+	                 AND a.attnum > 0 AND NOT a.attisdropped
+	               ORDER BY a.attnum
+	
+ERROR:  relation "todos" does not exist at character 323
+STATEMENT:                SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	                FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                  ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	               WHERE a.attrelid = '"todos"'::regclass
+	                 AND a.attnum > 0 AND NOT a.attisdropped
+	               ORDER BY a.attnum
+	
+ERROR:  relation "todos" does not exist at character 323
+STATEMENT:                SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	                FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                  ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	               WHERE a.attrelid = '"todos"'::regclass
+	                 AND a.attnum > 0 AND NOT a.attisdropped
+	               ORDER BY a.attnum
+	
+ERROR:  relation "todos" does not exist at character 323
+STATEMENT:                SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	                FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                  ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	               WHERE a.attrelid = '"todos"'::regclass
+	                 AND a.attnum > 0 AND NOT a.attisdropped
+	               ORDER BY a.attnum
+	
+ERROR:  relation "todos" does not exist at character 323
+STATEMENT:                SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	                FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                  ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	               WHERE a.attrelid = '"todos"'::regclass
+	                 AND a.attnum > 0 AND NOT a.attisdropped
+	               ORDER BY a.attnum
+	
+ERROR:  relation "todos" does not exist at character 323
+STATEMENT:                SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	                FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                  ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	               WHERE a.attrelid = '"todos"'::regclass
+	                 AND a.attnum > 0 AND NOT a.attisdropped
+	               ORDER BY a.attnum
+	
+ERROR:  relation "todos" does not exist at character 323
+STATEMENT:                SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	                FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                  ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	               WHERE a.attrelid = '"todos"'::regclass
+	                 AND a.attnum > 0 AND NOT a.attisdropped
+	               ORDER BY a.attnum
+	
+ERROR:  relation "todos" does not exist at character 323
+STATEMENT:                SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	                FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                  ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	               WHERE a.attrelid = '"todos"'::regclass
+	                 AND a.attnum > 0 AND NOT a.attisdropped
+	               ORDER BY a.attnum
+	
+ERROR:  relation "todos" does not exist at character 323
+STATEMENT:                SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	                FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                  ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	               WHERE a.attrelid = '"todos"'::regclass
+	                 AND a.attnum > 0 AND NOT a.attisdropped
+	               ORDER BY a.attnum
+	
+ERROR:  relation "todos" does not exist at character 323
+STATEMENT:                SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	                FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                  ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	               WHERE a.attrelid = '"todos"'::regclass
+	                 AND a.attnum > 0 AND NOT a.attisdropped
+	               ORDER BY a.attnum
+	

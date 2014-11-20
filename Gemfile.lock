@@ -211,6 +211,7 @@ DEPENDENCIES
   capybara!
   coffee-rails (~> 4.0.0)
   database_cleaner!
+  factory_girl
   factory_girl_rails
   haml
   haml_coffee_assets!

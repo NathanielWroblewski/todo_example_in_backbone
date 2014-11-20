@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.1.0'
+ruby '2.1.1'
 gem 'rails', '4.1.6'
 gem 'pg'
 
@@ -17,6 +17,7 @@ gem 'spring', group: :development
 group :test, :development do
   gem 'capybara', github: 'jnicklas/capybara'
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
+  gem 'factory_girl'
   gem 'factory_girl_rails'
   gem 'rspec', github: 'rspec/rspec'
   gem 'rspec-support', github: 'rspec/rspec-support'
