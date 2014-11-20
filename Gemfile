@@ -5,6 +5,7 @@ gem 'rails', '4.1.6'
 gem 'pg'
 
 gem 'coffee-rails'
+gem 'execjs'
 gem 'haml'
 gem 'haml_coffee_assets', git: 'https://github.com/netzpirat/haml_coffee_assets'
 gem 'jbuilder', '~> 2.0'

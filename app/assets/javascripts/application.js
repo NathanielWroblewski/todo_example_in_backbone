@@ -14,4 +14,6 @@
 //= require jquery_ujs
 //= require ./vendor/underscore
 //= require ./vendor/backbone
+//= require hamlcoffee
+//= require_tree ./templates
 //= require_tree .
