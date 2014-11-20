@@ -6,7 +6,7 @@ class Todo.Router extends Backbone.Router
 
   index: ->
     collection = new Todo.Collection
-    collection.fetch =>
+    collection.fetch().done =>
       view = new Todo.IndexView
         el: '#container'
         collection: collection
