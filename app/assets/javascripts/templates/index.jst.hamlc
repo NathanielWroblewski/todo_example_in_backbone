@@ -1,1 +1,3 @@
-%h1 Hello
+%ul
+- for todo in @todoList
+  %li= todo.get('title')

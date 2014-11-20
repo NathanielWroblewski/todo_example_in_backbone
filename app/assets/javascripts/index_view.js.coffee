@@ -5,5 +5,5 @@ class Todo.IndexView extends Backbone.View
   template: JST['templates/index']
 
   render: ->
-    @$el.html @template()
+    @$el.html @template(todoList: @collection.models)
     @

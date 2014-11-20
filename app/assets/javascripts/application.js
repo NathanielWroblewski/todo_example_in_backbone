@@ -16,4 +16,5 @@
 //= require ./vendor/backbone
 //= require hamlcoffee
 //= require_tree ./templates
+//= require model
 //= require_tree .
