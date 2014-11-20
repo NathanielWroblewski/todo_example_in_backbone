@@ -1,3 +1,3 @@
 %ul
 - for todo in @todoList
-  %li= todo.get('title')
+  %li{data: {id: todo.get('id')}}= todo.get('title')
