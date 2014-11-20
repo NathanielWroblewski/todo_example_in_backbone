@@ -1,1 +1,4 @@
-%h1 Hello
+%h1= @title
+%p= @description
+%p= @urgency
+%p= @completed_at

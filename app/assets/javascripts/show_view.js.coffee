@@ -5,4 +5,4 @@ class Todo.ShowView extends Backbone.View
   template: JST['templates/show']
 
   render: ->
-    @$el.html @template()
+    @$el.html @template(@model.attributes)

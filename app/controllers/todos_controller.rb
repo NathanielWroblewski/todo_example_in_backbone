@@ -7,6 +7,6 @@ class TodosController < ApplicationController
 
   def show
     todo = Todo.find(params[:id])
-    render json: { todo: todo.attributes }
+    render json: todo.attributes
   end
 end
