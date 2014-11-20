@@ -4,7 +4,7 @@ ruby '2.1.1'
 gem 'rails', '4.1.6'
 gem 'pg'
 
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails'
 gem 'haml'
 gem 'haml_coffee_assets', git: 'https://github.com/netzpirat/haml_coffee_assets'
 gem 'jbuilder', '~> 2.0'
