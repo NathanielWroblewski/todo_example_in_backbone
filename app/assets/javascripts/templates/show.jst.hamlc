@@ -1,4 +1,12 @@
-%h1= @title
-%p= @description
-%p= @urgency
-%p= @completed_at
+%h2= @title
+%p
+  Description:
+  = @description
+%p
+  Urgency:
+  = @urgency
+%p
+  - if @completed_at
+    Completed at #{@completed_at}
+  - else
+    Incomplete
