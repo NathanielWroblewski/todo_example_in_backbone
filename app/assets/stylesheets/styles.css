@@ -2,6 +2,7 @@ html, body {
   padding: 0;
   margin: 0;
   height: 100%;
+  color: #444;
 }
 
 .content {
@@ -12,4 +13,13 @@ html, body {
 
 li {
   list-style: none;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  color: #dedede;
+}
+
+span {
+  cursor: pointer;
 }
