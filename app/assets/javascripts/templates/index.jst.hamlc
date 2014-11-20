@@ -1,3 +1,5 @@
 %ul
 - for todo in @todoList
-  %li{data: {id: todo.get('id')}}= todo.get('title')
+  %li{data: {id: todo.get('id')}}
+    %input{type: 'checkbox'}
+    %span= todo.get('title')

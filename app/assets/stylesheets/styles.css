@@ -9,3 +9,7 @@ html, body {
   margin: 50px auto;
   text-align: center;
 }
+
+li {
+  list-style: none;
+}
